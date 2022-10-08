@@ -4,7 +4,7 @@ html { box-sizing: border-box; }
 
 /*
 	BARVY
-	czechitas  #b92e81
+	czechitas  #b92e81 ruzova
 	pozadi     #bdc3c7
 	tmava      #31363b
 	delitka    #3f464d
@@ -16,4 +16,89 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.profil {
+	background-color: #31363b;
+	width: 300px;
+	color: #bdc3c7;
+	box-shadow: 4px 4px 6px grey;
+	position: relative;
+}
+
+.hlavicka {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 15px;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.foto {
+	width: 300px;
+
+}
+
+.logo {
+	border-radius: 50%;
+	background-color: #b92e81;
+	box-shadow: 1px 1px 2px black;
+	position: absolute;
+	bottom: -20px;
+	right: 20px;
+}
+
+.obsah {
+	padding: 30px;
+	padding-top: 220px;
+	margin-bottom: 10px;
+}
+
+.jmeno {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.odkazy {
+	display: inline;
+	width: 300px;
+	margin: 10px;
+}
+.odkazy a{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+	border: 1px	solid #bdc3c7;
+	
+}
+
+ul {
+	padding: 0;
+}
+
+.portfolio {
+	
+	width: 300px;
+}
+
+.twitter, .facebook {
+	display: inline-block;
+	width: 50%;
+	
+}
+
+.portfolio a:hover {
+    background-color: #e74c3c;
+}
+
+.twitter a:hover {
+    background-color: #1da1f2;
+}
+
+.facebook a:hover {
+    background-color: #3b5998;
 }
