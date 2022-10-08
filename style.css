@@ -54,43 +54,38 @@ body {
 .obsah {
 	padding: 30px;
 	padding-top: 220px;
-	margin-bottom: 10px;
+	
 }
 
 .jmeno {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.odkazy {
-	display: inline;
-	width: 300px;
-	margin: 10px;
-}
-.odkazy a{
-    text-transform: uppercase;
+
+
+.odkazy a {
+	text-decoration: none;
+	border: 1px	solid #bdc3c7;
+	text-transform: uppercase;
     color: white;
     text-align: center;
     padding: 10px;
-    text-decoration: none;
-	border: 1px	solid #bdc3c7;
-	
+	display: block;
 }
 
 ul {
-	padding: 0;
+	padding-left: 0;
 }
 
 .portfolio {
 	
-	width: 300px;
+	width: auto;
 }
 
-.twitter, .facebook {
+.facebook, .twitter {
 	display: inline-block;
 	width: 50%;
-	
 }
-
 .portfolio a:hover {
     background-color: #e74c3c;
 }
