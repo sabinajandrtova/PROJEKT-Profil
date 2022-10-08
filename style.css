@@ -65,7 +65,7 @@ body {
 
 .odkazy a {
 	text-decoration: none;
-	border: 1px	solid #bdc3c7;
+	
 	text-transform: uppercase;
     color: white;
     text-align: center;
@@ -78,8 +78,13 @@ ul {
 }
 
 .portfolio {
-	
+	border-top: 0.5px	solid #bdc3c7;
+	border-bottom: 0.5px solid #bdc3c7;
 	width: auto;
+}
+
+.facebook {
+	border-right: 0.5px solid #bdc3c7;
 }
 
 .facebook, .twitter {
